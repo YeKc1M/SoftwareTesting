@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc7ab911-b339-4fc6-85a1-dd04ef1f0654" name="Default Changelist" comment="" />
+    <list default="true" id="cc7ab911-b339-4fc6-85a1-dd04ef1f0654" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +21,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1SaAnltR5dmev3ogztEappULP2N" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../DatabasePrinciple/作业一/java" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunDashboard">
@@ -35,7 +38,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Shortout">
+  <component name="RunManager" selected="Application.WeekA">
     <configuration name="Shortout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Shortout" />
       <module name="experiment1" />
@@ -52,8 +55,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Shortout" />
         <item itemvalue="Application.WeekA" />
+        <item itemvalue="Application.Shortout" />
       </list>
     </recent_temporary>
   </component>
@@ -69,5 +72,18 @@
       <updated>1571791501453</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
