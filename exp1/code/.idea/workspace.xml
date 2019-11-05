@@ -23,6 +23,7 @@
   <component name="ProjectId" id="1SaAnltR5dmev3ogztEappULP2N" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../DatabasePrinciple/作业一/java" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
