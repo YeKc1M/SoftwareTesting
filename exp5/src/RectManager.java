@@ -21,11 +21,11 @@ class Rect{
 			r.right=x2;
 		}
 		if(y1>y2){
-			r.top=y1;
-			r.bottom=y2;
-		}else{
 			r.top=y2;
 			r.bottom=y1;
+		}else{
+			r.top=y1;
+			r.bottom=y2;
 		}
 		return r;
 	}
@@ -41,31 +41,25 @@ class Rect{
 public class RectManager {
 	float area;//Recode area
 	int nFlag; //recode the relation of two rectangle
-	public static void testSolve(Rect A, Rect B){
-		System.out.print(A+" "+B+" ");
+	public static void testSolve(){
 		RectManager r=new RectManager();
-		r.solve(A, B);
-		if (r.nFlag==0){
-			System.out.println("矩形不相交！");
-			return;
-		}else if (r.nFlag==1){
-			System.out.println("矩形相交于一个区域！");
-		}else if (r.nFlag==2){
-			System.out.println("矩形相交于一个区域且为包含关系！");
-		}else if (r.nFlag==3){
-			System.out.println("矩形相交于一个区域且正好重合！");
-		}else if (r.nFlag==4){
-			System.out.println("矩形相交于一个区域且交点为1个点！");
-		}else if (r.nFlag==5){
-			System.out.println("矩形相交于一个区域且交点为1条线段！");
+		int arr[]=new int[6];
+		Rect a,b;
+		for(int i=1;i<=1000000;i++){
+			a=Rect.randomRect();
+			b=Rect.randomRect();
+			System.out.println(i+" "+a+" "+b);
+			r.solve(a,b);
+			arr[r.nFlag]++;
 		}
-		System.out.println(" 相交面积："+r.area);
+		for(int i=0;i<arr.length;i++){
+			System.out.println("arr["+i+"]:"+arr[i]);
+		}
 	}
 	public static void main(String[] args) {
 		//testSolve(Rect.randomRect(),Rect.randomRect());
-		for(int i=0;i<100;i++)
-			testSolve(Rect.randomRect(),Rect.randomRect());
 		//Rect.testRandomRect();
+		//testSolve();
 /*
 		Rect A=new Rect();
 		Rect B=new Rect();
